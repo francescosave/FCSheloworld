@@ -2,7 +2,7 @@
 
 Questo progetto formativo prevede la scrittura di un hello world 
 in tre linguaggi di programmazione analizzando alcuni aspetti 
-principali della programmazioone.
+principali della programmazione.
 
 - utilizzo di vscode
 - scrittura in markdown
@@ -50,6 +50,9 @@ def makedirs(nameDir):
 makedirs('js')
 makedirs('python')
 
+# creae un file javascript,un file python e un progetto C#
+
+
 
 # By setting exist_ok as True
 # error caused due already
@@ -60,10 +63,14 @@ makedirs('python')
 
 ```
 
+1. Cloniamo la repo con il 
+  ```git clone git@github.com:francescosave/FCSheloworld.git```
 
-1. Documentiamo tutto in questo file redme.md
+3. Eseguiamo il download di vsCode,Python,Node.Js e C#
 
-2. Relizziamo lo script phython che ci permette di creare automaticamente la struttura del progetto 
+2. Documentiamo tutto in questo file redme.md
+
+3. Relizziamo lo script phython che ci permette di creare automaticamente la struttura del progetto 
 
 
 
