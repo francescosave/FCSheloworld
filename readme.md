@@ -2,13 +2,16 @@
 
 Questo progetto formativo prevede la scrittura di un hello world 
 in tre linguaggi di programmazione analizzando alcuni aspetti 
-principali della programmazione.
+principali della programmazione che un dev dovrebbe conoscere.
 
-- utilizzo di vscode
-- scrittura in markdown
+- utilizzo di uno strumento di base come vscode
+- scrittura di un file di testo ma formattato in markdown
 - scripting in python per strutturare il progetto utilizzando efficaciemente una funzione,ciclando su un array e loggando il flusso ed eventuali errori
-s
-realizzare i 3 helloworld easy nei tre linguaggi che mandano a schermo la stringa hello world
+- realizzare i 3 applicativi helloworld easy nei tre linguaggi che mandano a schermo la stringa hello world linguaggio
+- Versioniamo il tutto nella nostra repository remota
+- Scriveremo dei test di base
+- Scriveremo la documentazione di base per qualsiasi utente voglia utilizzare la nostra applicazione
+- Scrivere l'applicazione in ambito web
 
 Hello world sarà realizzato utilizzando vscode come editor quindi senza l'utilizzo di ide visuali
 automatizzando atrtraverso il codice il più possibile.
@@ -65,8 +68,9 @@ makedirs('python')
 
 1. Cloniamo la repo con il 
   ```git clone git@github.com:francescosave/FCSheloworld.git```
+  ```git clone https://github.com/francescosave/FCSheloworld.git```
 
-3. Eseguiamo il download di vsCode,Python,Node.Js e C#
+3. Eseguiamo il download di .Net SDK 6,git,Python,Node.Js e vsCode.
 
 2. Documentiamo tutto in questo file redme.md
 
