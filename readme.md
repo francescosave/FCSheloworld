@@ -68,6 +68,7 @@ makedirs('python')
 
 1. Cloniamo la repo con il 
   ```git clone git@github.com:francescosave/FCSheloworld.git```
+  oppure con
   ```git clone https://github.com/francescosave/FCSheloworld.git```
 
 3. Eseguiamo il download di .Net SDK 6,git,Python,Node.Js e vsCode.
@@ -75,6 +76,8 @@ makedirs('python')
 2. Documentiamo tutto in questo file redme.md
 
 3. Relizziamo lo script phython che ci permette di creare automaticamente la struttura del progetto 
+
+4. Lanciamo lo script python loggando l'output dello schermo su un file ``` py .\init.py > log-init.txt```
 
 
 
