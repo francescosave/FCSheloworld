@@ -30,18 +30,12 @@ import os
 # exist_ok as True
 
 
-def makedirs(nameDir):
-    # Directory
-    directory = nameDir
-
-    # Parent Directory path
-    parent_dir = "readme/"
-
+def makedirs(parent_dir,directory):
+    
     # Path
     path = os.path.join(parent_dir, directory)
 
     # Create the directory
-    # 'Nikhil'
     try:
         os.makedirs(path, exist_ok = False)
         print("Directory '%s' created successfully" % directory)
@@ -49,13 +43,13 @@ def makedirs(nameDir):
         print("Directory '%s' can not be created" % directory)
 
 
+# 
+
 # ciclare questa parte qui
-makedirs('js')
-makedirs('python')
-
-# creae un file javascript,un file python e un progetto C#
-
-
+makedirs('readme/','js')
+makedirs('readme/','python')
+makedirs('readme/','cSharp')
+makedirs('.','cSharp')
 
 # By setting exist_ok as True
 # error caused due already
@@ -63,6 +57,7 @@ makedirs('python')
 # but other OSError may be raised
 # due to other error like
 # invalid path name
+
 
 ```
 
